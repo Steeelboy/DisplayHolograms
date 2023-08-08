@@ -1,0 +1,13 @@
+name: DisplayHolograms
+version: '${project.version}'
+main: me.ilciab.displayholograms.DisplayHolograms
+api-version: '1.20'
+author: ilciab
+commands:
+  blockdisplay:
+    description: Your description
+    usage: /<command>
+    aliases: [cd]
+    permissions:
+  displayhologram.create:
+    default: op
